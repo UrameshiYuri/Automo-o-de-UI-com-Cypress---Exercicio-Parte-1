@@ -1,0 +1,16 @@
+{
+  "name": "yuri",
+  "version": "1.0.0",
+  "description": "fluxograma de criaçao de conta e carrinho com cypress",
+  "license": "ISC",
+  "author": "Yuri Mielli",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "dependencies": {
+    "cypress": "^14.5.3"
+  },
+  "devDependencies": {}
+}
