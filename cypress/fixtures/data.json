@@ -1,4 +1,8 @@
 {
+  "firstName": "Rodrigo",
+  "lastName":"Mielli",
+  "phoneNumber":"11 9599434343", 
   "email": "novousuario@ebac.com",
-  "senha":"senha123"
+  "password":"senha123",
+  "reEnterPassword":"senha123"
 }
