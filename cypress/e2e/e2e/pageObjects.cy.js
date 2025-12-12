@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
  //const createAccount = require('../')
+ //const {profileCreate} =  require('../')
 
 describe("Teste de criação de conta", () =>{
 
@@ -8,7 +9,6 @@ describe("Teste de criação de conta", () =>{
         cy.setCookie('ebacStoreVersion', 'v2', {domain: 'lojaebac.ebaconline.art.br'})
         cy.wait(2000)
         cy.visit('/')
-        cy.get('[href="/Tab/Account"]').click()
     })
 
     it("deve criar uma conta nova com sucesso", () =>{
