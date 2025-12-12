@@ -1,7 +1,7 @@
 {
   "firstName": "Rodrigo",
   "lastName":"Mielli",
-  "phoneNumber":"11 9599434343", 
+  "phoneNumber":"9599434343", 
   "email": "novousuario@ebac.com",
   "password":"senha123",
   "reEnterPassword":"senha123"

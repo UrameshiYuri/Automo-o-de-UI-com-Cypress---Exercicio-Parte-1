@@ -18,4 +18,4 @@ class createAccount {
     this.#createButtom.click()
     }
 }
-module.exports = new createAccount();
+module.export = new createAccount();
