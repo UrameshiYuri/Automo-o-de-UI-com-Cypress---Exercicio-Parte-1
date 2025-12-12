@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+const {createAccount} = require("")
+
 describe("Teste de criação de conta", () =>{
 
     beforeEach(()=>{
@@ -8,6 +10,8 @@ describe("Teste de criação de conta", () =>{
     })
 
     it("deve criar uma conta nova com sucesso", () =>{
-       
+       //cy.get('[href="/Tab/Account"]').click()
+       //cy.get('[data-testid="signUp"] > .css-146c3p1').click()
+
     })
 })
