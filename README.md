@@ -1,1 +1,1 @@
-# Automo-o-de-UI-com-Cypress---Exercicio-Parte-1
+# Automação-de-UI-com-Cypress---Exercicio-Parte-1

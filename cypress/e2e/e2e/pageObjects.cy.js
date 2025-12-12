@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-// const {} = require('../')
+ //const createAccount = require('../')
 
 describe("Teste de criação de conta", () =>{
 
