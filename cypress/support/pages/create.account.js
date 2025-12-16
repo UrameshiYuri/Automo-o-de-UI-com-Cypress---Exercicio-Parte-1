@@ -2,9 +2,9 @@
 class createAccount {
     get #firstName() {return cy.get('[data-testid="firstName"]')}
     get #lastName() {return cy.get('[data-testid="lastName"]')}
-    get #phoneNumber() {return cy.get('[data-testid="lastName"]')}
+    get #phoneNumber() {return cy.get('[data-testid="phone"]')}
     get #email() {return cy.get(':nth-child(7) > .css-175oi2r > [data-testid="email"]')}
-    get #password() {return cy.get(':nth-child(7) > .css-175oi2r > [data-testid="email"]')}
+    get #password() {return cy.get(':nth-child(8) [data-testid="password"]')}
     get #reEnterPassword() {return cy.get('[data-testid="repassword"]')}
     get #createButtom(){return cy.get('[data-testid="create"]')}
 
@@ -18,4 +18,4 @@ class createAccount {
     this.#createButtom.click()
     }
 }
-module.export = new createAccount();
+module.exports = new createAccount();
