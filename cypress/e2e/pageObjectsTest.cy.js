@@ -18,9 +18,7 @@ describe("Teste de criação de conta", () =>{
 
         profileCreate.newProfile('Account')
         signUpProfile.signProfile()
-        //cy.get('[data-testid="signUp"] > .css-146c3p1').click()
-        
-        //createAccount.newAccount(firstName, lastName, phoneNumber, email, passWord, reEnterPassword)
+        createAccount.newAccount(firstName, lastName, phoneNumber, email, passWord, reEnterPassword)
         
        //cy.get('[data-testid="signUp"] > .css-146c3p1').click()
 
