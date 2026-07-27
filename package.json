@@ -10,7 +10,7 @@
     "test": "npx cypress open"
   },
   "dependencies": {
-    "cypress": "^14.5.3"
-  },
-  "devDependencies": {}
+    "cypress": "^14.5.3",
+    "start-server-and-test": "^3.0.11"
+  }
 }
