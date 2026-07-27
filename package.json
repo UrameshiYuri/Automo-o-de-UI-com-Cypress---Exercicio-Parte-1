@@ -7,10 +7,18 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npm run cy:run",
+    "start": "npx serverest",
+    "cy:run": "npx cypress run",
+    "cy:run-cy": "start-server-and-test start http://lojaebac.ebaconline.art.br/ test"
   },
   "dependencies": {
     "cypress": "^14.5.3",
     "start-server-and-test": "^3.0.11"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
   }
 }
