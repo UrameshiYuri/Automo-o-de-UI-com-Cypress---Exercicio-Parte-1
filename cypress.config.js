@@ -13,7 +13,7 @@ module.exports = defineConfig({
 
 e2e: {
   baseUrl: 'http://lojaebac.ebaconline.art.br/',
-  supportFile: false,
+  supportFile: 'cypress/support/e2e.js',
 
   setupNodeEvents(on, config) {
     return config
