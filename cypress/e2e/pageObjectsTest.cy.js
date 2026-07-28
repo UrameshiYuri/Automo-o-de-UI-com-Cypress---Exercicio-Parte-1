@@ -10,16 +10,13 @@ describe("Teste de criação de conta", () => {
 
     beforeEach(() => {
         cy.setCookie('ebacStoreVersion', 'v2', { domain: 'lojaebac.ebaconline.art.br' })
-        cy.wait(2000)
         cy.visit('/')
-        cy.wait(2000)
     })
 
     it("deve criar uma conta nova com sucesso", () => {
 
         profileCreate.newProfile('Account')
         signUpProfile.signProfile()
-        cy.wait(2000)
         createAccount.newAccount(firstName, lastName, phoneNumber, email, password, reEnterPassword)
         profileCreate.newProfile('Account')
         profilePage.customerName().should('exist')
