@@ -5,3 +5,7 @@ cypress/screenshots/
 cypress/videos/
 lojaEbacTest.cy.js/
 pageObjectsTest.cy.js/
+node_modules
+allure-results
+data
+allure-report
