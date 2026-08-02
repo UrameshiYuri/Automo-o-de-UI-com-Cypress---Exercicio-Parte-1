@@ -1,1 +1,7 @@
 node_modules/
+node_modules/
+mochawesome-report/
+cypress/screenshots/
+cypress/videos/
+lojaEbacTest.cy.js/
+pageObjectsTest.cy.js/
