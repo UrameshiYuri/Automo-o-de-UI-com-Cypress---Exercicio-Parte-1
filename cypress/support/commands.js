@@ -1,4 +1,6 @@
 /// <reference types="cypress"/>
+
+require('@reportportal/agent-js-cypress/lib/commands/reportPortalCommands');
 import loginPage from "../support/pages/profile.login"
 import { profileCreate } from "../support/pages/home.page"
 import produto from "../fixtures/produto.json"
