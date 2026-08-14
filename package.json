@@ -10,7 +10,7 @@
     "test": "npx cypress run --browser chrome",
     "start": "npx serverest",
     "cy:run-ci": "start-server-and-test start http://lojaebac.ebaconline.art.br/ test",
-    "cy:report":"npx cypress run --browser chrome --record --key 17a26da9-abc1-4797-8ff6-529cdecd69b2"
+    "cy:report":"npx cypress run --record --key 17a26da9-abc1-4797-8ff6-529cdecd69b2"
   },
   "dependencies": {
     "cypress": "^14.5.3",
