@@ -25,6 +25,8 @@ module.exports = defineConfig({
   },
   e2e: {
     baseUrl: "http://lojaebac.ebaconline.art.br/",
+    projectId: "c1afny",
+    video:true,
     setupNodeEvents(on, config) {
       return registerReportPortalPlugin(on, config);
     },
