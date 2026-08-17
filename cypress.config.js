@@ -4,7 +4,7 @@ const registerReportPortalPlugin = require('@reportportal/agent-js-cypress/lib/p
 module.exports = defineConfig({
   reporter: '@reportportal/agent-js-cypress',
   reporterOptions: {
-    apiKey: 'ChZbNDsTQ5ur-ZmjCHTMKLQ3ECauSW7BydHgooOVu_xCMoLCr_t-Fb4v9HWbgZFa',
+    apiKey: 'sKIvF1mZRZiXKlFHn7vhh0GCAfSkBH2C39Dq5jS7ZFs0FYysQkAA7aEJXGF7I8rr',
     endpoint: "https://demo.reportportal.io/api/v1",
     apiKey: " process.env.RP_API_KEY",
     project: "urameshiyuri_personal",
